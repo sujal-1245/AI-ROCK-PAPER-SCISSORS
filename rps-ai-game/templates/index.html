@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors 🤖</h1>
+
+    <div class="scoreboard">
+      <div class="score">🙋‍♂️ You: <span id="user-score">0</span></div>
+      <div class="score">🤖 AI: <span id="ai-score">0</span></div>
+    </div>
+
+    <div class="difficulty-section">
+      <label>Select Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy (Random)</option>
+        <option value="intermediate">Intermediate (Frequency)</option>
+        <option value="pro">Pro (Pattern)</option>
+      </select>
+    </div>
+
+    <section class="choices">
+      <button class="choice" data-move="rock">👊🏻 Rock</button>
+      <button class="choice" data-move="paper">🖐🏻 Paper</button>
+      <button class="choice" data-move="scissors">✌🏻 Scissors</button>
+    </section>
+
+    <div class="battle-animation" id="battle">
+      <div id="player-move">❔</div>
+      <span class="vs-text">VS</span>
+      <div id="ai-move">❔</div>
+    </div>
+
+    <div class="result">
+      <h2 id="game-result">Click a move to begin!</h2>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
