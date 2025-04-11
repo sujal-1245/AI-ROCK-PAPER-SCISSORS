@@ -50,12 +50,21 @@ Then open your browser and go to:
 
 ---
 
-## 📸 Preview
+## 🔮 Preview
 
 ```
 👊🏻  vs  ✌🏻
 🔥 Attack animations
 🏆 First to 10 wins!
+```
+
+---
+
+## 📷 Screenshot
+
+```
+![image](https://github.com/user-attachments/assets/ae40736f-4638-4155-9610-10a42f40c64c)
+
 ```
 
 ---
