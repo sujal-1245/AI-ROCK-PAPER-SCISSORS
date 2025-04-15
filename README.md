@@ -62,8 +62,12 @@ Then open your browser and go to:
 
 ## 📷 Screenshot
 
-
 ![image](https://github.com/user-attachments/assets/ae40736f-4638-4155-9610-10a42f40c64c)
+
+
+## 🎥 Demo Video
+
+https://github.com/user-attachments/assets/899fc7c9-7072-4080-bf2a-400b9fe2d092
 
 
 
